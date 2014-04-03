@@ -1,8 +1,9 @@
-{application, sqlmig,
+{application, sql_migration,
  [
   {description, "SQL migration toolkit"},
   {vsn, git},
   {registered, []},
+  {modules, []},
   {applications, [
                   kernel,
                   stdlib
